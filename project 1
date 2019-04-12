@@ -9,31 +9,37 @@ Scanner sc=new Scanner(System.in);
 System.out.println("Enter your name");
 name=sc.nextLine();
 System.out.println("Welcome");
-System.out,.println("Enter pin code");
-num=sc.nextInt();
+System.out.println("Enter pin code");
+n=sc.nextInt();
 System.out.println("Enter choice 1 for withdrawal,2 for pin change,3 for credit,4 for checking bank balance");
 int choice=sc.nextInt();
-Switch(choice)
+switch (choice)
+{
 case 1:
 System.out.println("Enter amount to be withdrawn");
 d=sc.nextInt();
 num=num-d;
 System.out.println("Your available balance"+num);
 break;
+
 case 2:
 System.out.println("Enter new pin");
-num=sc.nextInt();
+n=sc.nextInt();
 break;
+
 case 3:
 System.out.println("Enter amount tot be credited");
 d=sc.nextInt();
 num=num+d;
+
 System.out.println("Your new balance"+num);
 break;
+
 case 4:
 System.out.println("Your name"+name);
 System.out.println("Your balance"+num);
 break;
-System.out.println("Thank You");
-}
-}
+
+
+}System.out.println("Thank You");
+}}
