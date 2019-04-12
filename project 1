@@ -1,4 +1,4 @@
-importjava.util.*;
+import java.util.*;
 class atm
 {
 public static void main()
