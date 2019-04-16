@@ -45,7 +45,18 @@ case 1:
 System.out.println("Enter amount to be withdrawn");
 d=sc.nextInt();
 num=num-d;
+System.out.println("Enter 1 for current account,2 for savings account");
+int p=sc.nextInt();
+switch (p);
+{case 1: String str="Current account;
+break;
+case 2: String str="Savings account");
+break;
+}
+System.out.println("Rs"+d+"has been debited from"+str);
 System.out.println("Your available balance"+num);
+
+
 break;
 
 case 2:
@@ -54,7 +65,7 @@ n=sc.nextInt();
 break;
 
 case 3:
-System.out.println("Enter amount tot be credited");
+System.out.println("Enter amount to be credited");
 d=sc.nextInt();
 num=num+d;
 
